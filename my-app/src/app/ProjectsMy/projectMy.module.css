@@ -1,0 +1,25 @@
+.mainContainer {
+    position: relative;
+    background-color: #000319;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.content {
+    max-width: 1280px;
+    width: 100%;
+}
+
+@media (max-width: 639px){
+    .mainContainer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
